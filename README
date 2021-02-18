@@ -1,1 +1,7 @@
 Read Me 1st
+1. Function App
+- Function has two settings, one to specify the list of URLs in a comma separated format and the second to keep the http endpoint of the logic app (you get it after deployment of logic app)
+- Make sure to set 'Always On' in your function
+2. Logic App
+- Add a new step, fore example send an email or send a Teams message
+- Use the 'message' variable coming from HTTP endpoint that has the message about the site that just went down.
